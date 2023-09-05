@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content:  space-between;
+
+  padding: 1rem;
+  font-family: var(--font-alt);
+  font-size: 2rem;
+  box-shadow: var(--box-shadow-secondary)
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+}
+
+.linksContainer a {
+  color: var(--color-black);
+}
+
+.linksContainer a:nth-last-child(1){
+  padding-left: 2rem;
+}
+
+.personalInfoContainer i {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.personalInfoContainer i:nth-child(1){
+  padding-right: 2rem;
+}
