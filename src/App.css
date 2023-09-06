@@ -12,7 +12,8 @@
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 
-  --box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --box-shadow: 15px 15px 30px #bebebe,
+  -15px -15px 30px #ffffff;
   --box-shadow-secondary: 0px 8px 12px 0px rgba(0,0,0,0.15);
   --box-shadow-tertiary: 0 1px 2px 0 rgba(0,0,0,0.15);
 }
@@ -29,12 +30,26 @@ html {
   color: var(--color-black);
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--color-light-1);
-    /* position: absolute; */
-    overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-light-1);
+  overflow: auto;
+  /* overflow: hidden; */
+  /* position: absolute; */
+  /* overflow-y: hidden; */
 }
 
 a {

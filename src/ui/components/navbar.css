@@ -5,7 +5,13 @@ nav {
   padding: 1rem;
   font-family: var(--font-alt);
   font-size: 2rem;
-  box-shadow: var(--box-shadow-secondary)
+  box-shadow: var(--box-shadow-secondary);
+  width: 100%;
+  background-color: #212529;
+  color: var(--color-white);
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 .linksContainer {
@@ -14,7 +20,7 @@ nav {
 }
 
 .linksContainer a {
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 .linksContainer a:nth-last-child(1){

@@ -1,0 +1,20 @@
+.productHead-container {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 6rem;
+}
+
+.productHead-container h1 {
+  font-size: 3rem;
+  font-family: var(--font-alt);
+}
+
+.productBody-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
